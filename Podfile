@@ -7,7 +7,6 @@ target 'CommonProject' do
 
 pod 'Alamofire', '~> 2.0'
 pod 'JGProgressHUD'
-pod 'Google/Analytics', '~> 1.0.0'
 
 end
 

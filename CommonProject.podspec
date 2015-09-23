@@ -8,7 +8,7 @@ s.summary = "CommonProject is a set of common libraries."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.2"
+s.version = "1.0.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -26,7 +26,6 @@ s.source = { :git => "https://github.com/Phantom1502/CommonProject.git", :tag =>
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 2.0'
 s.dependency 'JGProgressHUD'
-s.dependency 'Google/Analytics', '~> 1.0.1'
 
 # 8
 s.source_files = "CommonProject/**/*.{h,m,swift}"
