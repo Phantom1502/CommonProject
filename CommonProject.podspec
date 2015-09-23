@@ -26,7 +26,7 @@ s.source = { :git => "https://github.com/Phantom1502/CommonProject.git", :tag =>
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 2.0'
 s.dependency 'JGProgressHUD'
-s.dependency 'Google/Analytics', '~> 1.0.0'
+s.dependency 'Google/Analytics', '~> 1.0.1'
 
 # 8
 s.source_files = "CommonProject/**/*.{swift}"
