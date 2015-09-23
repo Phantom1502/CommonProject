@@ -8,7 +8,7 @@ s.summary = "CommonProject is a set of common libraries."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.0"
+s.version = "1.0.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -29,7 +29,7 @@ s.dependency 'JGProgressHUD'
 s.dependency 'Google/Analytics', '~> 1.0.1'
 
 # 8
-s.source_files = "CommonProject/**/*.{swift}"
+s.source_files = "CommonProject/**/*.{h,m,swift}"
 
 # 9
 #s.resources = "CommonProject/**/*.{png,jpeg,jpg,storyboard,xib}"
