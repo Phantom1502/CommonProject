@@ -24,7 +24,7 @@ s.source = { :git => "https://github.com/Phantom1502/CommonProject.git", :tag =>
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 2.0'
+s.dependency 'Alamofire', '~> 3.0'
 s.dependency 'JGProgressHUD'
 
 # 8
