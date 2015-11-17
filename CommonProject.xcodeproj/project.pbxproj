@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C629B358592283AD1BB0E40B /* Pods_CommonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1233D3A1A3C1E91A8E4B65 /* Pods_CommonProject.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E536B53B1BFB57B800F470EB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E536B53A1BFB57B800F470EB /* UIColor.swift */; };
+		E536B53E1BFB5D2800F470EB /* UIColor+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E536B53C1BFB5D2800F470EB /* UIColor+Utils.h */; };
+		E536B53F1BFB5D2800F470EB /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E536B53D1BFB5D2800F470EB /* UIColor+Utils.m */; };
 		E5D8975B1BB2C0AF002C5407 /* CommonProject.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D8975A1BB2C0AF002C5407 /* CommonProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5D8976D1BB2D5DF002C5407 /* MMDrawerBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D897641BB2D5DF002C5407 /* MMDrawerBarButtonItem.h */; };
 		E5D8976E1BB2D5DF002C5407 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D897651BB2D5DF002C5407 /* MMDrawerBarButtonItem.m */; };
@@ -25,7 +26,8 @@
 		3BD9F8E4C6FD49B3B7D63BE8 /* Pods-CommonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject.debug.xcconfig"; sourceTree = "<group>"; };
 		51BD41ED1A6CEA7E03DD20B6 /* Pods-CommonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject.release.xcconfig"; sourceTree = "<group>"; };
 		CE1233D3A1A3C1E91A8E4B65 /* Pods_CommonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E536B53A1BFB57B800F470EB /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E536B53C1BFB5D2800F470EB /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		E536B53D1BFB5D2800F470EB /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		E5D897571BB2C0AF002C5407 /* CommonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D8975A1BB2C0AF002C5407 /* CommonProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProject.h; sourceTree = "<group>"; };
 		E5D8975C1BB2C0AF002C5407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,7 +74,8 @@
 		E536B5391BFB577500F470EB /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
-				E536B53A1BFB57B800F470EB /* UIColor.swift */,
+				E536B53C1BFB5D2800F470EB /* UIColor+Utils.h */,
+				E536B53D1BFB5D2800F470EB /* UIColor+Utils.m */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				E5D897721BB2D5DF002C5407 /* MMDrawerVisualState.h in Headers */,
 				E5D8976F1BB2D5DF002C5407 /* MMDrawerController.h in Headers */,
 				E5D897711BB2D5DF002C5407 /* MMDrawerController+Subclass.h in Headers */,
+				E536B53E1BFB5D2800F470EB /* UIColor+Utils.h in Headers */,
 				E5D8976D1BB2D5DF002C5407 /* MMDrawerBarButtonItem.h in Headers */,
 				E5D8975B1BB2C0AF002C5407 /* CommonProject.h in Headers */,
 			);
@@ -250,10 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D897731BB2D5DF002C5407 /* MMDrawerVisualState.m in Sources */,
+				E536B53F1BFB5D2800F470EB /* UIColor+Utils.m in Sources */,
 				E5D897701BB2D5DF002C5407 /* MMDrawerController.m in Sources */,
 				E5D8976E1BB2D5DF002C5407 /* MMDrawerBarButtonItem.m in Sources */,
 				E5D897751BB2D5DF002C5407 /* UIViewController+MMDrawerController.m in Sources */,
-				E536B53B1BFB57B800F470EB /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
