@@ -24,6 +24,7 @@ s.source = { :git => "https://github.com/Phantom1502/CommonProject.git", :tag =>
 
 # 7
 s.framework = "UIKit"
+s.dependency 'MBProgressHUD', '~> 0.9.1'
 
 # 8
 s.source_files = "CommonProject/**/*.{h,m,swift}"
