@@ -5,8 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'CommonProject' do
 
-pod 'Alamofire', '~> 3.0'
-pod 'JGProgressHUD'
+
 
 end
 
