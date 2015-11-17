@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+MBProgressHUD.h"
+#import "MBProgressHUD.h"
 
 @implementation UIViewController (MBProgressHUD)
 
